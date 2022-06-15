@@ -1,0 +1,41 @@
+/* Acá incorporo reglas del box model */
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.caja{
+    width: 600px;
+    height: 600px;
+    background-color: pink;
+    border: 2px violet solid;
+    padding: 10px 30px 10px 30px;
+    margin: 10px;
+    background-image: url(/images/panterarosa.png);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 100px;
+}
+
+h1{
+    font-family: 'Fascinate Inline', cursive;
+    font-size: 500px;
+}
+.cajasimpson{
+    font-family: 'Indie Flower', cursive;
+    width: 600px;
+    height: 600px;
+    background-color: #FFD90F;
+    border: 2px rgb(255, 11, 11) solid;
+    padding: 10px 30px 10px 30px;
+    margin: 10px;
+    background-image: url(/images/homer.png);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 100px;
+}
